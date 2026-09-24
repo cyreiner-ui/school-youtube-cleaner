@@ -1,0 +1,27 @@
+NAME
+School YouTube Cleaner
+
+SHORT DESCRIPTION
+Keeps YouTube classroom-friendly by hiding selected recommendations and promotional elements and turning autoplay off.
+
+DETAILED DESCRIPTION
+School YouTube Cleaner is a simple classroom-focused extension. On YouTube, it hides:
+- right-side recommended/related videos on watch pages
+- end-screen video suggestions and cards
+- shopping, merchandise, and promotional modules
+- Explore and Trending navigation links
+
+It also attempts to keep YouTube autoplay turned off.
+
+It intentionally leaves the YouTube homepage, search, Shorts, comments, video title, channel information, description, captions, and normal playback controls available.
+
+The extension has no user settings, no analytics, no advertising, and no external network service. All changes are performed locally in the browser.
+
+CATEGORY
+Productivity
+
+SINGLE PURPOSE
+Reduce distracting or inappropriate recommendation surfaces while a teacher uses YouTube for classroom playback.
+
+DATA USE
+No user data is collected, transmitted, or sold.

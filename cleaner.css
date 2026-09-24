@@ -1,0 +1,37 @@
+/* School YouTube Cleaner — minimal classroom cleanup */
+
+/* Watch page: right-side recommended / related videos */
+ytd-watch-next-secondary-results-renderer,
+#related {
+  display: none !important;
+}
+
+/* End-screen suggestions / cards / recommendation overlays */
+.ytp-endscreen-content,
+.ytp-ce-element,
+.ytp-ce-covering-overlay,
+.ytp-ce-element-show,
+.ytp-cards-teaser,
+.ytp-cards-button,
+.ytp-pause-overlay,
+.ytp-suggestion-set,
+.ytp-suggestion-link {
+  display: none !important;
+}
+
+/* Shopping / promotional modules */
+ytd-merch-shelf-renderer,
+ytd-product-list-renderer,
+ytd-offer-module-renderer,
+ytd-brand-video-shelf-renderer,
+ytd-statement-banner-renderer {
+  display: none !important;
+}
+
+/* Explore / Trending navigation links */
+ytd-guide-entry-renderer a[title="Explore"],
+ytd-guide-entry-renderer a[title="Trending"],
+ytd-mini-guide-entry-renderer a[title="Explore"],
+ytd-mini-guide-entry-renderer a[title="Trending"] {
+  display: none !important;
+}

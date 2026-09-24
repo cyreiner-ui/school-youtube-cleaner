@@ -1,0 +1,5 @@
+School YouTube Cleaner privacy statement
+
+This extension does not collect, transmit, sell, or store personal data.
+It runs only on YouTube pages and modifies the page locally in the browser to hide selected interface elements and disable autoplay.
+It does not contact any external server and contains no analytics, tracking, advertising, or remote code.

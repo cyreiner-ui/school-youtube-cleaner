@@ -1,0 +1,7 @@
+.secrets/
+build/
+dist/
+node_modules/
+*.pem
+*.key
+

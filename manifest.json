@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "School YouTube Cleaner",
+  "version": "1.1.1",
+  "description": "Keeps YouTube classroom-friendly by hiding side recommendations, end-screen suggestions, shopping/promotions, and Explore/Trending links, and by turning autoplay off.",
+  "update_url": "https://cyreiner-ui.github.io/school-youtube-cleaner/update.xml",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://youtube.com/*",
+        "https://m.youtube.com/*"
+      ],
+      "css": ["cleaner.css"],
+      "js": ["cleaner.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
