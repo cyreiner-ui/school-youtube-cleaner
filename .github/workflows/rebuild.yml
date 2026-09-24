@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
       - name: Restore signing key
@@ -36,4 +36,3 @@ jobs:
           if (git diff --cached --quiet) { Write-Host 'Pages files are already current.'; exit 0 }
           git commit -m "Build signed extension $((Get-Content manifest.json | ConvertFrom-Json).version)"
           git push
-
